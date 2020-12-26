@@ -1,7 +1,5 @@
-import 'package:firebase_basics/ui/views/login/login_view.dart';
 import 'package:firebase_basics/ui/views/signup/signup_view.dart';
 import 'package:firebase_basics/services/dialog_service.dart';
-import 'package:firebase_basics/ui/views/startup/startup_view.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_basics/services/navigation_service.dart';

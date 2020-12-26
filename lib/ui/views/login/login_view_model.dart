@@ -2,9 +2,7 @@ import 'package:firebase_basics/routes/route_names.dart';
 import 'package:firebase_basics/services/authentication_service.dart';
 import 'package:firebase_basics/services/dialog_service.dart';
 import 'package:firebase_basics/services/navigation_service.dart';
-import 'package:firebase_basics/ui/views/signup/signup_view.dart';
 import 'package:flutter/material.dart';
-
 import '../../../locator.dart';
 import '../base_model.dart';
 

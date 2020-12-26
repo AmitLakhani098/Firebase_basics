@@ -22,5 +22,5 @@ void setupLocator() {
   locator.registerLazySingleton(() => NavigationService());
   locator.registerLazySingleton(() => DialogService());
   locator.registerLazySingleton(() => AuthenticationService());
-  locator.registerSingleton(() => FirestoreService());
+  locator.registerLazySingleton(() => FirestoreService());
 }
