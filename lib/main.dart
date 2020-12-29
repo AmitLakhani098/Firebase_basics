@@ -1,3 +1,4 @@
+import 'package:firebase_basics/ui/views/login/login_view.dart';
 import 'package:firebase_basics/ui/views/signup/signup_view.dart';
 import 'package:firebase_basics/services/dialog_service.dart';
 import 'package:firebase_core/firebase_core.dart';
@@ -6,11 +7,11 @@ import 'package:firebase_basics/services/navigation_service.dart';
 import 'managers/dialog_manager.dart';
 import 'routes/router.dart';
 import 'locator.dart';
+import 'ui/views/home/home_view.dart';
 
 void main() async {
   setupLocator();
   WidgetsFlutterBinding.ensureInitialized();
-  // await Firebase.initializeApp();
   runApp(MyApp());
 }
 

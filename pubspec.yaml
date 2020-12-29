@@ -24,6 +24,7 @@ dependencies:
   flutter:
     sdk: flutter
   http: ^0.12.2
+
   # Firebase
   firebase_auth: ^0.18.4+1
   firebase_core: ^0.5.3
@@ -63,6 +64,7 @@ flutter:
   assets:
     - assets/images/icon_large.png
     - assets/images/title.png
+    - assets/jsonData.json
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.

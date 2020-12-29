@@ -29,10 +29,11 @@ class SignUpViewModel extends BaseModel {
     setBusy(true);
 
     var result = await _authenticationService.signUpWithEmail(
-        email: email,
-        password: password,
-        fullName: fullName,
-        role: _selectedRole);
+      email: email,
+      password: password,
+      fullName: fullName,
+      role: _selectedRole,
+    );
 
     setBusy(false);
 

@@ -1,4 +1,5 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:firebase_basics/services/firestore_service_place.dart';
 import 'package:get_it/get_it.dart';
 import 'package:firebase_basics/services/navigation_service.dart';
 import 'package:firebase_basics/services/dialog_service.dart';
@@ -23,4 +24,5 @@ void setupLocator() {
   locator.registerLazySingleton(() => DialogService());
   locator.registerLazySingleton(() => AuthenticationService());
   locator.registerLazySingleton(() => FirestoreService());
+  // locator.registerLazySingleton(() => FireStoreServicePlace());
 }

@@ -1,0 +1,27 @@
+{
+    "name": "Lakhani Akshit",
+    "class": "3-Level",
+    "address": {
+        "house_no": "749",
+        "Street": "6-No Haridarshan soc",
+        "city": "Katargam",
+        "state": {
+            "Guj": "Gujarat",
+            "Del": "Delhi",
+            "Har": "Hariyana",
+            "Ka": "Karnataka",
+            "Chi": "Channai",
+            "Up": "Uttar Pradesh"
+        }
+    },
+    "scores": [
+        {
+            "subject": "JavaScript",
+            "marks": "96"
+        },
+        {
+            "subject": "UI UX",
+            "marks": "99"
+        }
+    ]
+}
